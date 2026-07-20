@@ -1,0 +1,95 @@
+@baseUrl = http://localhost:3000/api
+
+
+### Register User
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "role": "user",
+  "username": "john_doe",
+  "email": "john@example.com",
+  "password": "secret123",
+  "phoneNumber": "+1234567890"
+}
+
+### Register Vendor
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "role": "vendor",
+  "businessName": "Awesome Store",
+  "address": "123 Vendor Street",
+  "email": "vendor@example.com",
+  "password": "secret123",
+  "phoneNumber": "+1234567890"
+}
+
+
+
+
+### Login User
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "john@example.com",
+  "password": "secret123"
+}
+###
+GET  http://localhost:3000/api/vendor/get-vendors
+
+
+###
+GET {{baseUrl}}/vendor/get-vendor/68093dbdddba570c5dfa27bc
+
+###
+GET {{baseUrl}}/vendor/get-vendor-dashboard/68093dbdddba570c5dfa27bc
+
+
+### 
+POST {{baseUrl}}/chat/send
+Content-Type: application/json
+
+{
+  "receiverId": "6807b9171c5f7b44498db7f4",
+  "senderId": "68093dbdddba570c5dfa27bc",
+  "content": "mhs!",
+  "type": "text"
+
+}
+
+### 
+GET {{baseUrl}}/chat/history?userA=6807b9171c5f7b44498db7f4&userB=68093dbdddba570c5dfa27bc
+
+###
+GET {{baseUrl}}/chat/list/6807b9171c5f7b44498db7f4?role=user
+
+
+### send offer
+POST {{baseUrl}}/offer/send-offer
+Content-Type: application/json
+
+{
+  "user": "6807b9171c5f7b44498db7f4",
+  "vendor": "68093dbdddba570c5dfa27bc",
+  "eventType": "Wedding", 
+  "eventDate": "2025-06-15T00:00:00.000Z",
+  "budget": 5000,
+  "location": "New York",
+  "description": "We need catering and decorations.",
+  "status": "Pending" 
+}
+
+###
+GET  {{baseUrl}}/offer/vendor/68093dbdddba570c5dfa27bc
+
+###
+
+PATCH   {{baseUrl}}/offer/680fce447aeb3cc9f982e131/status
+Content-Type: application/json
+
+{
+  "status":"Accepted"
+}

@@ -1,0 +1,206 @@
+{
+  "intents": [
+    {
+      "intent": "booking_process",
+      "patterns": [
+        "How can I book an event?",
+        "When will I get a confirmation after booking?",
+        "Where can I make a booking for my event?",
+        "What details do I need to provide when booking?",
+        "Is it possible to change my booking date later?",
+        "Do I need to provide a photo for booking?",
+        "Can I book without an image of the room?",
+        "How do I get quotes for event decoration?",
+        "How will I know when my booking is confirmed?",
+        "What steps do I need to follow to book an event?",
+        "Can I book an event without a room image?",
+        "How soon after booking will I get a confirmation email?",
+        "What happens after I submit my booking request?",
+        "What should I do after receiving my event confirmation email?",
+        "How do I save the generated image for my event?",
+        "How will I know if the event planner accepts my booking?"
+      ],
+      "responses": [
+        "To book an event, start by uploading an image of the event space. If you don't have one, you can use our AI to generate it. Once you send an offer to the planner, you’ll be notified once it’s accepted.",
+        "You will receive a confirmation email within 24 hours after your booking request.",
+        "Simply visit our booking page at /booking to start your event booking.",
+        "You will need to provide your personal details, event details, and a picture of the space if available.",
+        "You can select a new date after confirming your booking, but changes may depend on availability.",
+        "You will need to provide an image of the room or event space. If you don’t have one, we can generate one for you.",
+        "If you don’t have an image, our AI can generate one based on your description.",
+        "Share your event image with event planners to receive quotes and decoration offers.",
+        "Once your event planner accepts your offer, you will receive confirmation along with next steps.",
+        "Once you submit the booking form, you'll be guided to the confirmation email and booking details.",
+        "If you don’t have an image, our AI tool will assist in creating a visual for your event.",
+        "You will receive confirmation and further instructions within 24 hours.",
+        "After submitting the booking, you’ll get a confirmation email with details within a day.",
+        "Once the offer is accepted, you'll receive a confirmation email and event details.",
+        "Save the generated image and share it with the event planners for detailed offers and planning.",
+        "Once the event planner approves your booking, you will be notified and a confirmation will follow."
+      ]
+    },
+    {
+      "intent": "services_offered",
+      "patterns": [
+        "What types of services do you offer for events?",
+        "Do you handle corporate meetings?",
+        "Can you organize weddings?",
+        "Do you cater for birthday events?",
+        "Are social gatherings part of your services?",
+        "Do you provide services for conferences?",
+        "What kind of events do you specialize in?",
+        "Can you help organize product launches?",
+        "Do you organize conferences?",
+        "Do you offer event planning services for corporate clients?"
+      ],
+      "responses": [
+        "We offer services for wedding planning, corporate conferences, birthday parties, social gatherings, and product launches.",
+        "We specialize in organizing corporate meetings, conferences, product launches, and social gatherings.",
+        "Yes, we provide comprehensive event planning services for weddings and other celebrations.",
+        "We organize birthday parties, corporate conferences, social events, and more.",
+        "We offer professional event planning for corporate clients, including conferences and meetings.",
+        "Our services include wedding planning, birthday celebrations, corporate conferences, and product launches.",
+        "We can help plan and manage all kinds of events, including weddings, product launches, and social gatherings.",
+        "Yes, we handle a wide variety of events, including corporate conferences, social gatherings, and weddings.",
+        "Wedding planning, corporate events, social gatherings, and product launches are part of our services.",
+        "We specialize in corporate events, conferences, weddings, birthday parties, and product launches."
+      ]
+    },
+    {
+      "intent": "decoration_options",
+      "patterns": [
+        "What decoration options can I choose from?",
+        "How can I upload inspiration images for decoration?",
+        "Do you offer suggestions for color palettes?",
+        "Will you provide floral arches for my event?",
+        "Are centerpieces included in the decoration package?",
+        "What types of decorations do you offer for events?",
+        "Can I upload my decoration inspiration photos?",
+        "Does your AI suggest event color schemes?",
+        "What kinds of decorations do you offer for weddings?",
+        "Do you include floral arrangements as part of the decorations?"
+      ],
+      "responses": [
+        "We offer draping, centerpieces, floral arches, and various other decorations.",
+        "You can upload your inspiration images directly through our website or app.",
+        "Yes, our AI will suggest color palettes based on your event type and preferences.",
+        "We offer floral arches, draping, and various other decorative elements to enhance your event.",
+        "Centerpieces are included as part of our decoration services.",
+        "We offer various decoration options such as draping, floral arches, centerpieces, and more.",
+        "You can easily upload your decoration inspiration photos to our platform for custom suggestions.",
+        "Our AI generates color palettes tailored to your event's theme and style.",
+        "For weddings, we offer a wide range of decoration options including floral arches, centerpieces, and draping.",
+        "Floral arrangements, centerpieces, and other decorations are included as part of our service."
+      ]
+    },
+    {
+      "intent": "ai_features",
+      "patterns": [
+        "What are the AI capabilities for my event?",
+        "Can the AI suggest event layouts?",
+        "Does the AI optimize seating arrangements?",
+        "Can I personalize my event using AI?",
+        "What features does the AI provide for event planning?",
+        "Does the AI recommend seating for my event?",
+        "What can the AI do to help with event planning?",
+        "Can the AI assist with layout suggestions for my event?"
+      ],
+      "responses": [
+        "Our AI can generate decor images, recommend event layouts, and optimize seating arrangements.",
+        "Yes, the AI will suggest seating arrangements and layouts based on your event size and type.",
+        "Our AI uses your preferences to suggest seating arrangements that suit your needs.",
+        "AI helps you personalize your event with layout recommendations, decor suggestions, and more.",
+        "We offer AI features that generate decor images, suggest event layouts, and help with seating optimization.",
+        "AI can assist in generating decor visuals, recommending layouts, and optimizing your seating arrangement.",
+        "Based on your preferences, our AI will recommend the best seating and layouts for your event.",
+        "The AI can suggest layout ideas and help with decor, making event planning much easier."
+      ]
+    },
+    {
+      "intent": "pricing",
+      "patterns": [
+        "How much does it cost to book the basic event package?",
+        "Can you provide details on the premium package pricing?",
+        "What’s the cost for the all-inclusive event package?",
+        "How much do I need to pay for the basic package?",
+        "Is there a custom quote for my event?",
+        "What are the prices for event packages?",
+        "How much does the full-service package cost?",
+        "Are there any discounts available on the premium package?",
+        "Can you explain the price difference between the basic and premium packages?"
+      ],
+      "responses": [
+        "The basic package starts at $1000.",
+        "The premium package is priced at $2500.",
+        "We offer a custom quote based on your event’s unique requirements.",
+        "The all-inclusive package costs $4000.",
+        "We provide pricing for a range of packages starting from $1000.",
+        "The basic package includes essential event services. For additional services, consider our premium or all-inclusive options.",
+        "Pricing varies based on the event details. The all-inclusive package costs $4000.",
+        "You can contact us for a personalized quote for your event.",
+        "Discounts may apply for large events or long-term bookings, especially on our premium packages."
+      ]
+    },
+    {
+      "intent": "packages_offered",
+      "patterns": [
+        "Which packages do you offer?",
+        "What is included in the Silver package?",
+        "Does Gold include photography?",
+        "Is venue booking part of Bronze?",
+        "Which package offers entertainment?",
+        "What is included in the Bronze package?"
+      ],
+      "responses": [
+        "Bronze, Silver, and Gold.",
+        "Silver adds catering.",
+        "Gold includes photography & entertainment.",
+        "Bronze includes venue booking.",
+        "Gold includes photography & entertainment.",
+        "Bronze includes venue booking."
+      ]
+    },
+    {
+      "intent": "payment_methods",
+      "patterns": [
+        "What payment methods are accepted?",
+        "How much deposit is required?",
+        "When is the remaining balance due?",
+        "Can I pay via mobile wallet?",
+        "Is PayPal accepted?"
+      ],
+      "responses": [
+        "Credit cards, PayPal, bank transfers, and mobile wallets.",
+        "25% deposit.",
+        "Due 7 days before the event.",
+        "Mobile wallets.",
+        "PayPal."
+      ]
+    },
+    {
+      "intent": "greeting",
+      "patterns": [
+        "Hello!",
+        "Hi there!",
+        "Good morning!",
+        "Good afternoon!",
+        "Hey!",
+        "Hi!",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "How can I assist you?",
+        "What can I do for you today?",
+        "Hey! How can I help you today?",
+        "Hi! How can I assist you today?",
+        "Hello! How are you doing today?",
+        "I'm fine, thank you! How can I assist you?",
+        "Im doing well, thank you! How can I help you?",
+        "I'm doing great! How can I assist you today?"
+        
+      ]
+    }
+  ]
+}
